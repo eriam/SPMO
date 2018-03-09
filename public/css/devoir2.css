@@ -1,0 +1,120 @@
+body {
+   font-size: 1em;
+}
+
+input {
+   margin: 0.5em;
+}
+input:valid {
+  background-color: #ddffdd;
+}
+
+.input_valid {
+  background-color: #ddffdd !important;
+}
+
+input:invalid {
+  background-color: #ffdddd;
+}
+
+.input_invalid {
+  background-color: #ffdddd !important;
+}
+
+.header {
+   padding-bottom: 1em;
+   padding-top: 1em;
+   font-size: 1.3em;
+}
+
+.active {
+   background-color: grey !important;
+}
+
+table {
+   width: 100%;
+   margin-bottom: 2em;
+   margin-top: 2em;
+}
+
+td {
+}
+
+tr:hover {
+   background-color: grey !important;
+}
+
+.container {
+   clear: both;
+   margin-top: 5em;
+   margin-left: auto;
+   margin-right: auto;
+   width: 90%;
+}
+
+
+.bgmenu {
+   background-color: grey !important;
+}
+
+.menu-tables {
+   float: left;
+}
+
+.menu-tables ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu-tables li {
+    float: left;
+}
+
+.menu-tables li a {
+    display: block;
+    padding: 8px;
+}
+
+.menu-user {
+   float: right;
+}
+
+.menu-user ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu-user li {
+    float: left;
+}
+
+.menu-user li a {
+    display: block;
+    padding: 8px;
+}
+
+
+.alert {
+   background-color: red;
+   padding: 1.5em;
+   margin: 0.5em;
+}
+
+.form {
+   margin: 0.5em;
+}
+
+.form-group {
+   margin: 0.5em;
+}
+
+
+.form-control {
+   margin: 0.5em;
+   display: block;
+}
+
